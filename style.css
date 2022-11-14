@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-style: none;
+  list-style: none;
+  text-decoration: none;
+}
+.body {
+  display: block;
+  position: relative;
+  max-width: 100vw;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  padding: 0px 60px;
+  bottom: 0;
+  background-color: #262626;
+}
+header img {
+  max-width: 10vw;
+}
+
+.lista ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 10px 20px;
+  gap: 20px;
+}
+
+.lista a {
+  color: whitesmoke;
+  font-size: 1vw;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.lista a:focus,
+.lista a:hover {
+  font-size: 1.1vw;
+}
+.section {
+  display: block;
+  position: relative;
+  max-width: 100vw;
+  overflow: hidden;
+  top: 40vh;
+  margin-left: 20vw;
+}
