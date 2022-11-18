@@ -1,0 +1,18 @@
+article {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ul {
+  margin-top: 20px;
+}
+section li {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: white;
+  text-shadow: #333 -0.1rem -0.1rem 0.2rem;
+  text-align: center;
+  margin: 5px;
+}
